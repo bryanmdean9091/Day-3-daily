@@ -1,0 +1,13 @@
+body {
+    background-color: green;
+    height: 100vh;
+}
+h1, h2 {
+    display: flex;
+    justify-content:center;
+}
+.prompt{
+    display: flex;
+    align-items: center;
+    
+}

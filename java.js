@@ -2,24 +2,34 @@
 let  userName;
 userName = prompt("Please enter your name");
 alert("Hello, "+userName+", nice to meet you");
-
-//Store input to variable
-
-//Reverse user's name
-let str = ""
-let res = str.split("").reverse().join("");
-console.log(res);
-//Alert result
+let res = userName.split("").reverse().join("");
 alert(res);
 
-//Challenge 2
-var num1,num2;
-num1 = prompt("please enter a number from 1-10");
-var num2;
-num2= prompt("please enter a number from 1-10");
-var result = Number(num1)+Number(num2);
-alert("answer to added numbers is  " + result);
-//parseInt()
+let num1 = prompt("enter a number",10);
+let num2 = prompt("Enter another number",10);
+let addResult = parseInt(num1)+ parseInt(num2);
+alert(addResult);
+
+//Day-3 Take-Home
+
+let firstName = prompt("What is your first name? ");
+let lastName = prompt("what is your last name? ");
+console.log(firstName);
+alert(lastName);
+
+//Bonus
+
+let birthday = prompt("What is your birthday? ");
+confirm("Are you sure "+birthday+" is your correct birthday? Press OK for Yes or Cancel for No");
+alert(birthday);
+
+
+
+
+
+
+
+
 
 
 
